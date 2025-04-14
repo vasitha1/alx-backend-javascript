@@ -7,7 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node 0x00-ES6_basic/2-main.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "dev:all": "for file in 0x00-ES6_basic/*-main.js; do echo \"\n=== Running $file ===\n\"; node $file; done",
+    "start": "node index.js",
+    "debug": "node --inspect-brk index.js"
   },
   "repository": {
     "type": "git",
