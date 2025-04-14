@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node 0x00-ES6_basic/1-main.js"  
+    "dev": "node 0x00-ES6_basic/1-main.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   "bugs": {
     "url": "https://github.com/vasitha1/alx-backend-javascript/issues"
   },
-  "homepage": "https://github.com/vasitha1/alx-backend-javascript#readme"
+  "homepage": "https://github.com/vasitha1/alx-backend-javascript#readme",
+  "devDependencies": {
+    "eslint": "^9.24.0"
+  }
 }
-
