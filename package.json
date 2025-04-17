@@ -1,29 +1,5 @@
 {
   "name": "alx-backend-javascript",
-  "type": "module",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node 0x00-ES6_basic/2-main.js",
-    "lint": "eslint .",
-    "dev:all": "for file in 0x00-ES6_basic/*-main.js; do echo \"\n=== Running $file ===\n\"; node $file; done",
-    "start": "node index.js",
-    "debug": "node --inspect-brk index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vasitha1/alx-backend-javascript.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vasitha1/alx-backend-javascript/issues"
-  },
-  "homepage": "https://github.com/vasitha1/alx-backend-javascript#readme",
-  "devDependencies": {
-    "eslint": "^9.24.0"
-  }
+  "type": "commonjs"
 }
